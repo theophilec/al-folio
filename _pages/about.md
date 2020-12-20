@@ -21,5 +21,5 @@ Currently, I am studying Mathematics & Engineering in a dual masters program bet
 
 In the past, I've worked on PAC-Bayes bounds for ILE structured prediction at [Inria](https://inria.fr) & [UCL](https://www.ucl.ac.uk/ai-centre/) and state estimation for underwater robotics at Schlumberger-Doll Research. 
 
-[Learn more...](publications)
+[Learn more...](assets/pdf/cantelobre-cv-23-12-20.pdf)
 
