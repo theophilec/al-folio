@@ -1,70 +1,24 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{cantelobre2020pacbayesian,
+      title={A PAC-Bayesian Perspective on Structured Prediction with Implicit Loss Embeddings}, 
+      author={Théophile Cantelobre and Benjamin Guedj and María Pérez-Ortiz and John Shawe-Taylor},
+      year={2020},
+      journal={arXiv 2012.03780,},
+      volume={cs.LG},
+      selected={true},
+      pdf={https://arxiv.org/pdf/2012.03780.pdf},
+      abstract={Many practical machine learning tasks can be framed as Structured prediction problems, where several output variables are predicted and considered interdependent. Recent theoretical advances in structured prediction have focused on obtaining fast rates convergence guarantees, especially in the Implicit Loss Embedding (ILE) framework. PAC-Bayes has gained interest recently for its capacity of producing tight risk bounds for predictor distributions. This work proposes a novel PAC-Bayes perspective on the ILE Structured prediction framework. We present two generalization bounds, on the risk and excess risk, which yield insights into the behavior of ILE predictors. Two learning algorithms are derived from these bounds. The algorithms are implemented and their behavior analyzed, with source code available at <a href="https://github.com/theophilec/PAC-Bayes-ILE-Structured-Prediction">this link</a>.}}
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{cantelobre2020iros,
+    title={A real-time unscented Kalman filter on manifolds for challenging AUV navigation},
+    author={Cantelobre, Th{\'e}ophile and Chahbazian, Cl{\'e}ment and Croux, Arnaud and Bonnabel, Silv{\`e}re},
+    booktitle={IEEE IROS,},
+    year={2020},
+    selected={true},
+    pdf={https://ras.papercept.net/proceedings/IROS20/0575.pdf},
+    abstract={We consider the problem of localization and navigation of Autonomous Underwater Vehicles (AUV) in the context of high performance subsea asset inspection missions in deep water. We propose a solution based on the recently introduced Unscented Kalman Filter on Manifolds (UKF-M) for onboard navigation to estimate the robot's location, attitude and velocity, using a precise round and rotating Earth navigation model. Our algorithm has the merit of seamlessly handling nonlinearity of attitude, and is far simpler to implement than the extended Kalman filter (EKF), which is widely used in the navigation industry. The unscented transform notably spares the user the computation of Jacobians and lends itself well to fast prototyping in the context of multi-sensor data fusion. Besides, we provide the community with feedback about implementation, and execution time is shown to be compatible with real-time. Realistic extensive Monte-Carlo simulations prove uncertainty is estimated with accuracy by the filter, and illustrate its convergence ability. Real experiments in the context of a 900m deep dive near Marseille (France) illustrate the relevance of the method.}
 }

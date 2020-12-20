@@ -2,10 +2,21 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: You can find course materials here.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Complex Analysis -- Mines ParisTech (2020)
+**Course instructor:** Professor Jean-Emmanuel Deschaud (CAOR, Mines ParisTech)
 
-Organize your courses by years, topics, or universities, however you like!
+Lectured 10 hours accelerated course for Mines ParisTech engineering graduate students.
+
+#### Ressources
+
+* Lecture notes for my group are available [here](https://github.com/theophilec/complex-analysis). Open an issue on Github or send me an email with any comments or typos.
+* Instructor notes are available [here](http://www.eul.ink/complex-analysis/).
+
+### Problem sessions  -- Lycée Louis le Grand (2017-2019)
+**Instructor:** Pierre Bertin (MPSI 1)
+
+Gave weekly 2 x 1 hour problem sessions with small groups of undergraduates.
