@@ -8,7 +8,7 @@ middle_name:
 last_name: Cantelobre
 email: theophilec&gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-    some notes 
+    Personal website for Théophile Cantelobre
 footer_text: Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url:  https://theophilec.github.io # the base hostname & protocol for your site
@@ -58,7 +58,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name:  blog # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: some notes
 permalink: /blog/:year/:title/
 
 # Pagination
